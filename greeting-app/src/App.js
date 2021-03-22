@@ -3,6 +3,7 @@ import './App.css';
 
 let CDate=new Date()
 CDate=CDate.getHours();
+let Time=new Date().toLocaleTimeString();
 let greeting="";
 let cssStyle={
   backgroundColor:"Pink",
@@ -27,6 +28,7 @@ function App() {
   return (
     <div className="App">
       <h1 style={{marginTop:"300px"}}>Hello Sir, <span style={cssStyle}>{greeting}</span></h1>
+      <h1>{Time}</h1>
     </div>
   );
 }
