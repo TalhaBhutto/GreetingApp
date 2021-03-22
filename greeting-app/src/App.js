@@ -6,8 +6,9 @@ CDate=CDate.getHours();
 let Time=new Date().toLocaleTimeString();
 let greeting="";
 let cssStyle={
-  backgroundColor:"Pink",
-  borderRadius: "20%",
+  backgroundColor:"white",
+  borderRadius: "10%",
+  TextDecoration:"overline",
 };
 if(CDate>=0 && CDate<12){
   greeting="Good Morning! Have a nice Day.";
@@ -26,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <h1 style={{marginTop:"300px"}}>Hello Sir, <span style={cssStyle}>  {greeting}  </span></h1>
-      <h1 style={{opacity:"0.5",color:"white"}}>{Time}</h1>
+      <h1 style={{opacity:"0.6",color:"white"}}>{Time}</h1>
     </div>
   );
 }
