@@ -7,23 +7,26 @@ let Time=new Date().toLocaleTimeString();
 let greeting="";
 let cssStyle={
   backgroundColor:"Pink",
-  backgroundImage: 'url("https://picsum.photos/200/300")'
 };
 if(CDate>=0 && CDate<12){
   greeting="Good Morning! Have a nice Day.";
   cssStyle.color="green";
+  cssStylebackgroundImage='url("")';
 }
 if(CDate>=12 && CDate<16){
   greeting="Good Afternoon! God bless you.";
   cssStyle.color="yellow";
+  cssStylebackgroundImage='url("")';
 }
 if(CDate>=16 && CDate<20){
   greeting="Good Evening! Hoping that you had a wonderful day.";
   cssStyle.color="orange";
+  cssStylebackgroundImage='url("")';
 }
 if(CDate>=20){
   greeting="Good Night! Have some rest.";
   cssStyle.color="blue";
+  cssStylebackgroundImage='url("")';
 }
 function App() {
   return (
