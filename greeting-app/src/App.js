@@ -27,7 +27,7 @@ if(CDate>=16 && CDate<20){
 if(CDate>=20){
   greeting="Good Night! Have some rest.";
   cssStyle.color="blue";
-  cssStyle2.backgroundImage='url("https://images.app.goo.gl/8mtY8yeRficSdBrSA")';
+  cssStyle2.backgroundImage='url("https://picsum.photos/200/300")';
 }
 function App() {
   return (
