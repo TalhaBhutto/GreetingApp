@@ -26,7 +26,7 @@ if(CDate>=20){
 function App() {
   return (
     <div className="App">
-      <h1>Hello Sir, <span style={cssStyle}>{greeting}</span></h1>
+      <h1 style={{marginTop:"300px"}}>Hello Sir, <span style={cssStyle}>{greeting}</span></h1>
     </div>
   );
 }
