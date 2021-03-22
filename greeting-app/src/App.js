@@ -7,8 +7,8 @@ let Time=new Date().toLocaleTimeString();
 let greeting="";
 let cssStyle={
   backgroundColor:"Pink",
+  borderRadius: "20%",
 };
-let cssStyle2={};
 if(CDate>=0 && CDate<12){
   greeting="Good Morning! Have a nice Day.";
   cssStyle.color="green";}
@@ -24,8 +24,8 @@ if(CDate>=20){
 }
 function App() {
   return (
-    <div className="App" style={cssStyle2}>
-      <h1 style={{marginTop:"300px"}}>Hello Sir, <span style={cssStyle}>{greeting}</span></h1>
+    <div className="App">
+      <h1 style={{marginTop:"300px"}}>Hello Sir, <span style={cssStyle}>  {greeting}  </span></h1>
       <h1 style={{opacity:"0.5",color:"white"}}>{Time}</h1>
     </div>
   );
