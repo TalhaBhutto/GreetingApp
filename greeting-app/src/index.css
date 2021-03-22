@@ -5,8 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: lightblue; */
-}
+  background-color: lightblue;
+  background-image: url("https://picsum.photos/700/500");
+  background-repeat: no-repeat;
+  background-position: center;}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
