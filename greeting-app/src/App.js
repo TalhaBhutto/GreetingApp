@@ -2,9 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 let CDate=new Date()
-CDate=Cdate.getHours();
+CDate=CDate.getHours();
 let greeting="";
-let cssStyle={};
+let cssStyle={
+  backgroundColor:"Pink",
+};
 if(CDate>=0 && CDate<12){
   greeting="Good Morning! Have a nice Day.";
   cssStyle.color="green";
@@ -24,7 +26,7 @@ if(CDate>=20){
 function App() {
   return (
     <div className="App">
-      <h1>{CDate}</h1>
+      <h1>Hello Sir, <span style={cssStyle}>{greeting}</span></h1>
     </div>
   );
 }
